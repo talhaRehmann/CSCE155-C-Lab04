@@ -25,9 +25,15 @@ int main(int argc, char **argv) {
   }
 
   //1. Rewrite the given for loop as an equivalent while loop
-  for(int i=10; i<20; i+=3) {
+  //for(int i=10; i<20; i+=3) {
+    //printf("%d ", i);
+  /}
+  int i=10;
+  while (i<20)
+  {
     printf("%d ", i);
   }
+  
   printf("\n");
 
   //2. Rewrite the given while loop as an equivalent for loop
