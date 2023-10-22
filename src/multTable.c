@@ -22,6 +22,20 @@ int main(int argc, char **argv) {
   }
 
   //TODO: place your code here
+for (int  i = 1; i<=n ; i++)
+{
+printf("%4d",i);
 
+}
+printf("\n");
+for (int  i = 1; i <=n ; i++)
+{
+  printf("%3d", i);
+  for (int j = 0; j <=n ; j++)
+  {
+    printf("%4d", i * j);
+  }
+  printf("\n");
+}
   return 0;
 }
