@@ -120,6 +120,29 @@ printf("\n");
   //   If the integer is divisible by 11 print "Bar" instead.  If
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
+printf("Enter the value for n");
+scanf("%d",&n);
+for ( i =1; i <=n; i++)
+{
+  if (i % 7 == 0 && i % 11 == 0)
+  {
+    printf("FooBar\n");
+  }
+  else if(i % 7 == 0)
+  {
+    printf("Foo\n");
+  }
+  else if (i % 11 == 0)
+  {
+    printf("Bar\n");
+  }
+  else{
+    printf("%d\n",i);
+  }
+  
+  
+}
 
   return 0;
 }
+
