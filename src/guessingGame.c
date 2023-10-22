@@ -57,3 +57,33 @@ else
 }
 return 0;
 }
+
+// output
+
+/*
+PS C:\Users\talha\Desktop\LAB WORK\CSCE155-C-Lab04> cd src
+PS C:\Users\talha\Desktop\LAB WORK\CSCE155-C-Lab04\src> gcc .\guessingGame.c
+PS C:\Users\talha\Desktop\LAB WORK\CSCE155-C-Lab04\src> .\a.exe
+Guess-A-Number Game!
+Enter a number between 1 and 1000
+Enter your guess :150
+Your guess is too high , try again
+Enter your guess :90
+Your guess is too high , try again
+Enter your guess :70
+Your guess is too high , try again
+Enter your guess :65
+Your guess is too high , try again
+Enter your guess :60
+Your guess is too high , try again
+Enter your guess :50
+Your guess is too low. Try again.
+Enter your guess :55
+Your guess is too low. Try again.
+Enter your guess :56
+Your guess is too low. Try again.
+Enter your guess :57
+Congratulations, you found it! Number of guesses: 9
+
+
+*/
