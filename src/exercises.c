@@ -67,6 +67,20 @@ for (int i = 1; i <= n; i++) {
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
 
+printf("enter the value for n");
+  scanf("%d",&n);
+  int square;
+
+for (int i = 1; i <= n; i++) 
+   square = i * i;
+    if (i == n) 
+    {
+  printf("%d", square);
+    }
+    else
+      printf("%d, ", square); 
+
+    printf("\n");
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
 
