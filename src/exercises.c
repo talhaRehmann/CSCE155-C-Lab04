@@ -94,6 +94,13 @@ printf("\n");
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
 
+sum=0;
+  for (int  i = 1; i <= 5; i++)
+  {
+    sum=sum+i*2;
+  }
+  printf("sum=%d",sum);
+printf("\n");
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
 
