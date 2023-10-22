@@ -84,6 +84,13 @@ for (int i = 1; i <= n; i++)
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
 
+int sum=0;
+  for (int  i = 1; i <= 5; i++)
+  {
+    sum=sum+i;
+  }
+  printf("sum",sum);
+printf("\n");
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
 
